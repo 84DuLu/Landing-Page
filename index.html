@@ -4,64 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 <body>
     <div class="header">
-        <div>Header Logo</div>
-        <div>header link one</div>
-        <div>header link two</div>
-        <div>header link three</div>
+        <a href="#" class="logo">Header Logo</a>
+        <div class="header-links">
+            <a href="#" class="header-link">header link one</a>
+            <a href="#" class="header-link">header link two</a>
+            <a href="#" class="header-link">header link three</a>
+        </div>
     </div>
 
     <div class="body1">
         <div class="body1-left">
-            <div>The website is awesome</div>
-            <div>some text</div>
-            <button>Sign up</button>
+            <div class="body1-title">The website is awesome</div>
+            <div class="body1-text">This website has some subtext that goes 
+                here under the main title. It's a smaller font and the color 
+                is lower contrast.
+            </div>
+            <button class="body1-button">Sign up</button>
         </div>
-        <div>a picture</div>
+        <img src="./img/body1.jpg" class="body1-pic">
     </div>
 
     <div class="body2">
-        <div class="body2-title"></div>
+        <div class="body2-title">Some random information</div>
         <div class="body2-content">
             <div>
-                <div>picture</div>
-                <div>text</div>
+                <img src="./img/body2-1.jpg">
+                <div class="body2-text">this is some subtext under the illustration or image</div>
             </div>
             <div>
-                <div>picture</div>
-                <div>text</div>
+                <img src="./img/body2-2.jpg">
+                <div class="body2-text">this is some subtext under the illustration or image</div>
             </div>
             <div>
-                <div>picture</div>
-                <div>text</div>
+                <img src="./img/body2-3.jpg">
+                <div class="body2-text">this is some subtext under the illustration or image</div>
             </div>
             <div>
-                <div>picture</div>
-                <div>text</div>
+                <img src="./img/body2-4.jpg">
+                <div class="body2-text">this is some subtext under the illustration or image</div>
             </div>
         </div>
     </div>
 
     <div class="body3">
-        <div>some text</div>
-        <div>name</div>
+        <div class="body3-text">This is an inspiring quote, or a testimonial from a customer. 
+             Maybe it's just filling up space, or maybe people will actually
+             read it. Who knows? All I know is that it looks nice.
+        </div>
+        <div class="body3-author">-Thor, God of Thunder</div>
     </div>
+    
 
     <div class="body4">
-        <div class="body4-left">
-            <div>some text</div>
-            <div>some text</div>
+        <div class="body4-card">
+            <div class="card-left">
+                <div style="font-size: 24px;color: #F9FAF8;font-weight: 700;">Call to action! It's time!</div>
+                <div style="font-size: 18px;color: #E5E7EB;">Sign up for our product by clicking that button right over there!</div>
+            </div>
+            <button class="card-button">Sign up</button>
         </div>
-        <button>Sign up</button>
     </div>
 
     <div class="footer">
-        <div>text</div>
-        <div>text</div>
-        <div>text</div>
+        <div>Copyright</div>
+        <div>&copy</div>
+        <div>snow</div>
     </div>
 </body>
 </html>
